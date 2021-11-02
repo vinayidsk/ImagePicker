@@ -16,14 +16,14 @@
         <engine name="cordova" version=">=3.5.0" />
     </engines>
 
-    <js-module src="www/imagepicker.js" name="ImagePicker">
+    <js-module src="www/imagepicker.js" name="cordova-plugin-telerik-imagepicker">
         <clobbers target="plugins.imagePicker" />
     </js-module>
 
     <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="ImagePicker">
+            <feature name="cordova-plugin-telerik-imagepicker">
                 <param name="ios-package" value="SOSPicker"/>
             </feature>
         </config-file>
@@ -93,7 +93,7 @@
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="ImagePicker">
+            <feature name="cordova-plugin-telerik-imagepicker">
                 <param name="android-package" value="com.synconset.ImagePicker"/>
             </feature>
         </config-file>
