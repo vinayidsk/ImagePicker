@@ -9,13 +9,13 @@ The plugin conforms to the Cordova plugin specification, it can be installed
 using the Cordova / Phonegap command line interface.
 
     # without desc
-    phonegap plugin add https://github.com/vinayidsk/ImagePicker.git
-    cordova plugin add https://github.com/vinayidsk/ImagePicker.git
+    phonegap plugin add https://github.com/vinayidsk/cordova-plugin-telerik-imagepicker.git
+    cordova plugin add https://github.com/vinayidsk/cordova-plugin-telerik-imagepicker.git
     
     # with desc
-    phonegap plugin add https://github.com/vinayidsk/ImagePicker.git --variable PHOTO_LIBRARY_USAGE_DESCRIPTION="your usage message"
+    phonegap plugin add https://github.com/vinayidsk/cordova-plugin-telerik-imagepicker.git --variable PHOTO_LIBRARY_USAGE_DESCRIPTION="your usage message"
 
-    cordova plugin add https://github.com/vinayidsk/ImagePicker.git --variable PHOTO_LIBRARY_USAGE_DESCRIPTION="your usage message"
+    cordova plugin add https://github.com/vinayidsk/cordova-plugin-telerik-imagepicker.git --variable PHOTO_LIBRARY_USAGE_DESCRIPTION="your usage message"
 
 
 ## Using the plugin
