@@ -13,7 +13,7 @@
       "wp8"
     ]
   },
-  "repository": "github:vinayidsk/ImagePicker",
+  "repository": "github:vinayidsk/cordova-plugin-telerik-imagepicker",
   "engines": {
     "cordovaDependencies": {
       "3.0.0": {
